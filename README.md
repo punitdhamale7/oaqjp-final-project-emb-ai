@@ -1,9 +1,11 @@
-# Emotion Detection Application
+# Final Project: AI-Based Web Application Development and Deployment
 
-A web-based AI application that detects emotions in customer and user feedback text using IBM Watson NLP library and Flask.
+## Project Name: Final Project - Emotion Detection Application
+
+A web-based AI application that detects emotions in customer and user feedback text using the IBM Watson NLP library and Flask.
 
 ## Project Overview
-This project analyzes text statements to detect the emotions conveyed—such as **anger**, **disgust**, **fear**, **joy**, and **sadness**—and identifies the **dominant emotion**. It is built using Python, packaged modularly as `EmotionDetection`, and deployed as a web application using Flask.
+This is the Final Project for AI-Based Web Application Development and Deployment. The project analyzes text statements to detect the emotions conveyed—such as **anger**, **disgust**, **fear**, **joy**, and **sadness**—and identifies the **dominant emotion**. It is built using Python, packaged modularly as `EmotionDetection`, and deployed as a web application using Flask.
 
 ## Repository Structure
 ```
@@ -25,15 +27,15 @@ This project analyzes text statements to detect the emotions conveyed—such as 
 - **Output Formatting**: Processes responses and extracts emotion scores and the dominant emotion.
 - **Unit Testing**: Automated unit tests using Python's `unittest` framework to ensure high prediction accuracy.
 - **Web Interface**: Interactive web interface built with HTML, Bootstrap, and JavaScript.
-- **Error Handling**: Graceful error handling for blank inputs and invalid queries.
+- **Error Handling**: Graceful error handling for blank inputs and invalid queries (HTTP status code 400).
 - **Clean Code**: Adheres to PEP 8 standards with a perfect 10/10 Pylint score.
 
 ## Installation & Setup
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/punitdhamale7/github-emotion-detection.git
-   cd github-emotion-detection
+   git clone https://github.com/punitdhamale7/oaqjp-final-project-emb-ai.git
+   cd oaqjp-final-project-emb-ai
    ```
 
 2. **Install required packages**:

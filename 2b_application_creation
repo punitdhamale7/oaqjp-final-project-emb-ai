@@ -1,3 +1,6 @@
+theia@theia-docker-...:/home/project/final_project$ python3
+Python 3.11.9 (main, Apr  2 2024, 08:25:04) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
 >>> from emotion_detection import emotion_detector
 >>> emotion_detector("I love this new technology.")
 '{"emotionPredictions":[{"emotion":{"anger":0.006272547,"disgust":0.0025567436,"fear":0.009251525,"joy":0.9689267,"sadness":0.049725115},"target":"","emotionMentions":[{"span":{"begin":0,"end":27,"text":"I love this new technology."},"emotion":{"anger":0.006272547,"disgust":0.0025567436,"fear":0.009251525,"joy":0.9689267,"sadness":0.049725115}}]}],"producerId":{"name":"Natural Language Processing","version":"0.0.1"}}'
